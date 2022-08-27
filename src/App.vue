@@ -1,12 +1,14 @@
 <template>
-  <div></div>
+  <Navbar-el />
 </template>
 
 <script>
+import NavbarEl from './components/NavbarEl.vue'
 
 export default {
   name: 'App',
   components: {
+    NavbarEl
   }
 }
 </script>
