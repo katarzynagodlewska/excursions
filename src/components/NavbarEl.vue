@@ -29,4 +29,5 @@ name: "NavbarEl"
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/modules/navbar.scss";
 </style>
