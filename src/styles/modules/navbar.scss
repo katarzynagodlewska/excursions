@@ -3,11 +3,19 @@ ul {
 }
 
 .icon-cart {
-  width: 17px;
+  width: 1.0625rem;
 }
 
 .icon-search {
-  width: 18px;
+  width: 1.125rem;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: underline 1px black;
+  }
 }
 
 .logo {
@@ -28,24 +36,15 @@ ul {
   }
   &__text {
     margin: 0;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
-
-// .nav-buttons {
-//   &__item {
-//   }
-// }
-
-// .nav-list {
-
-// }
 
 .nav-list-left {
   min-width: 30rem;
   &__item {
-    font-size: 14px;
-    line-height: 32px;
+    font-size: 0.875rem;
+    line-height: 2rem;
   }
 }
 
