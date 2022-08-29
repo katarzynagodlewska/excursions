@@ -1,5 +1,8 @@
 <template>
   <Navbar-el />
+  <main>
+    <router-view />
+  </main>
 </template>
 
 <script>
