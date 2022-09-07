@@ -27,8 +27,7 @@ ul {
 }
 
 .nav-list-right {
-  min-width: 10.5rem;
-  color: #1f324b;
+  min-width: 7rem;
   &__item {
     display: flex;
     flex-direction: column;
@@ -41,7 +40,7 @@ ul {
 }
 
 .nav-list-left {
-  min-width: 30rem;
+  min-width: 28rem;
   &__item {
     font-size: 0.875rem;
     line-height: 2rem;
@@ -59,7 +58,7 @@ ul {
   &__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: 400;
     padding: 0;
     align-items: center;
