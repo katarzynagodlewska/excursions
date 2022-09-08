@@ -1,10 +1,14 @@
 <template>
-  <div></div>
+  <SlideSection />
 </template>
 
 <script>
+import SlideSection from "./SlideSection.vue"
 export default {
-  name: "HomeView"
+  name: "HomeView",
+  components: {
+    SlideSection,
+  }
 }
 </script>
 
