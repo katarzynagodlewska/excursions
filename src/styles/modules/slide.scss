@@ -1,0 +1,86 @@
+@import '../variables.scss';
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 68px;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 2rem;
+  max-width: 68px;
+  margin-left: 9vw;
+  margin-top: 2rem;
+}
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  max-width: 110rem;
+  width: 100%;
+  padding-left: 1rem;
+  overflow-x: hidden;
+  &__button {
+    background-color: $queen-blue;
+    color: $white;
+    font-weight: 400;
+    border: none;
+    border-radius: 0.625rem;
+    width: calc(10.35rem + 2vw);
+    height: calc(2.4rem + 0.5vw);
+    margin: 2.25rem 0 4rem 1rem;
+    font-size: 0.9rem;
+    line-height: 0.875rem;
+    &:hover {
+      background-color: $button-background;
+      cursor: pointer;
+    }
+  }
+  &__content {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 28.5rem;
+  }
+  &__description {
+    margin: 1.75rem 0 0;
+    font-family: "Rubik";
+    max-width: 25.375rem;
+    font-size: calc(0.65rem + 0.5vw);
+    line-height: 125%;
+    font-weight: 300;
+    &--bold {
+      font-family: "Source Sans Pro";
+      font-weight: 600;
+    }
+  }
+  &__img {
+    max-width: 50%;
+    height: auto;
+    min-width: 650px;
+  }
+  &__title {
+    max-width: 37.5rem;
+    font-size: calc(2.3rem + 1vw);
+    line-height: 116%;
+    font-weight: 700;
+    margin: 2rem 0.5rem 0 0;
+    &--black-background {
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: $bluish-gray;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $moonstone-blue;
+  width: 9px;
+  height: 9px;
+}

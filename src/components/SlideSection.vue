@@ -43,4 +43,5 @@ export default {
 </script>
 
 <style lang="scss">
+@import '../styles/modules/slide.scss';
 </style>
