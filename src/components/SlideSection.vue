@@ -13,7 +13,7 @@
     :modules="modules"
   >
     <swiper-slide><SlideItem /></swiper-slide>
-    <swiper-slide><SlideItem /></swiper-slide>
+    <swiper-slide><SlideItemGeysir /></swiper-slide>
     <swiper-slide><SlideItem /></swiper-slide>
     <div class="pagination"></div>
   </swiper>
@@ -24,6 +24,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Pagination } from "swiper";
 
 import SlideItem from "./SlideItem.vue";
+import SlideItemGeysir from "./SlideItemGeysir.vue";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -31,6 +32,7 @@ export default {
   name: "SlideSection",
   components: {
     SlideItem,
+    SlideItemGeysir,
     Swiper,
     SwiperSlide,
   },
