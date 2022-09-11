@@ -12,7 +12,7 @@
     }"
     :modules="modules"
   >
-    <swiper-slide><SlideItem /></swiper-slide>
+    <swiper-slide><SlideItemDiamondBeach /></swiper-slide>
     <swiper-slide><SlideItemGeysir /></swiper-slide>
     <swiper-slide><SlideItem /></swiper-slide>
     <div class="pagination"></div>
@@ -23,7 +23,7 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Pagination } from "swiper";
 
-import SlideItem from "./SlideItem.vue";
+import SlideItemDiamondBeach from "./SlideItemDiamondBeach.vue";
 import SlideItemGeysir from "./SlideItemGeysir.vue";
 
 import "swiper/css";
@@ -31,7 +31,7 @@ import "swiper/css/pagination";
 export default {
   name: "SlideSection",
   components: {
-    SlideItem,
+    SlideItemDiamondBeach,
     SlideItemGeysir,
     Swiper,
     SwiperSlide,
